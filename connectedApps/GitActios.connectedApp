@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>sabbineedi8500@gmail.com</contactEmail>
+    <label>GitActios</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+        <certificate>MIIDdzCCAl8CFFYnFErkZng5kPruKxwH3l4qi3qlMA0GCSqGSIb3DQEBCwUAMHgxCzAJBgNVBAYTAklOMQswCQYDVQQIDAJBUDELMAkGA1UEBwwCSFkxDTALBgNVBAoMBEFCQ1MxDTALBgNVBAsMBERlbW8xDTALBgNVBAMMBEFCQ1MxIjAgBgkqhkiG9w0BCQEWE3NzaXZhc2FpMUBnbWFpbC5jb20wHhcNMjMwNTIzMDQ1NzUwWhcNMjQwNTIyMDQ1NzUwWjB4MQswCQYDVQQGEwJJTjELMAkGA1UECAwCQVAxCzAJBgNVBAcMAkhZMQ0wCwYDVQQKDARBQkNTMQ0wCwYDVQQLDAREZW1vMQ0wCwYDVQQDDARBQkNTMSIwIAYJKoZIhvcNAQkBFhNzc2l2YXNhaTFAZ21haWwuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq11u4ehkfmHsjcEpV4tU3h+oVN5HSJjazG7iNoYS/LvEGYSwV6soSWUn1TMHhSbYyhzlDsxpanih8ULajo9zaLIUc3hmqcPYhUNvzfeZJhBM8z+b4i5q4Mjq5ADeE0vvj5JIATJqKPangGE09IWTHDe+rGIkb7pHQEx2CD0FhUsvDaHXY4+NujzLtJQvHdKHhmGfVMbww19+yDeZ1Qb9u/SDwzbOcx2KbobMJYGJp/cJ2xYu1fk8ymkGjkcbz7FF8Rle3OGrrIIHCyOsmgSwmEHwy7zKwMTyDW75qrq8yYrvtK0fOB4Bcb9RRc1eEfvjk4X2s34lhsSVHEg53+EtTQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQBOja+UltnzvqCanCzNvpe9SVCireb8BweamTXQiX5dXp6/4Oe0Th5HiYn2pABzBSz6bc65vgnyiSESrtQMNYkVJJc4zH/qanSiEXGk5/56yZq7vCUlpSkJpWgfETnap6uzpYV4RNQm0qUx1EgYZ04F04ryf9A62JnJNxqWddoCN6O8sKTAbsg+LKbLvvLO/V0l1EYLHs3feJK4OH0Z6E3ry0inwKyFajuZiIOci6MAtO4RrZppwVCWRZY518wnTMhHDvSlIOKAnB4EE24sFBkwTbCgJJZlZS+ozqi5rUfD6+hDzIH4H3fzYZyMfXDHR4lqUBrf5z0LSDTKhJCwLueW</certificate>
+        <consumerKey>3MVG9GnaLrwG9TQSi1HwolwMYRzoVQ3LJgpDNOAgg0lSCmPrRfKoXyAtZZsVK102oQnT6.WJvp6YjqIb7XkR5</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>System Administrator</profileName>
+</ConnectedApp>
